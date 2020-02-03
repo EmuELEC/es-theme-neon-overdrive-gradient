@@ -10,6 +10,16 @@ version         1.8
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>4</formatVersion>
+   <include subset="cores" name="greenblue">./fundo/greenblue.xml</include>
+    <include subset="cores" name="pinkblue">./fundo/pinkblue.xml</include>
+	<include subset="cores" name="blue">./fundo/blue.xml</include>
+	<include subset="cores" name="pinkgreen">./fundo/pinkgreen.xml</include>
+	<include subset="cores" name="purple">./fundo/purple.xml</include>
+	<include subset="cores" name="purplered">./fundo/purplered.xml</include>
+	<include subset="cores" name="redblue">./fundo/redblue.xml</include>
+	<include subset="cores" name="redgreen">./fundo/redgreen.xml</include>
+	
+	<include>./_inc/menu/menu.xml</include>
 
 <feature supported="carousel">
    <view name="system">
@@ -29,7 +39,6 @@ version         1.8
          <pos>0 0</pos>
          <size>1 1</size>
          <zIndex>2</zIndex>                 
-         <path>./_inc/images/background.png</path>
       </image>                      
       <text name="systemInfo">     
          <pos>0.0 0.67</pos>
@@ -55,7 +64,7 @@ version         1.8
    <view name="detailed,video,basic">
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.025</fontSize>     
+         <fontSize>0.023</fontSize>     
          <pos>0.009 0.955</pos>      
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
@@ -64,12 +73,12 @@ version         1.8
 
    <view name="basic,detailed,video">
       <textlist name="gamelist">      
-         <selectorColor>8762c1</selectorColor>
-         <selectedColor>ffffff</selectedColor>
+         <selectorColor>369bd3</selectorColor>
+         <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
-         <secondaryColor>8762c1</secondaryColor>
-         <fontPath>./_inc/fonts/bitcrusher condensed bd.ttf</fontPath>
-         <fontSize>0.034</fontSize>
+         <secondaryColor>369bd3</secondaryColor>
+         <fontPath>./_inc/fonts/DJB Chalk It Up.ttf</fontPath>
+         <fontSize>0.040</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/sounds/Move.wav</scrollSound>
          <zIndex>3</zIndex>                          
@@ -97,7 +106,6 @@ version         1.8
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./_inc/images/background_basic.png</path>
          <zIndex>1</zIndex>          
       </image>                
    </view> 
@@ -107,7 +115,6 @@ version         1.8
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./_inc/images/background_video.png</path>
          <zIndex>1</zIndex>         
       </image>                
    </view>     
@@ -135,7 +142,7 @@ version         1.8
    
    <view name="detailed,video">
       <text name="md_lbl_releasedate, md_lbl_players, md_lbl_rating, md_rating, md_players, md_releasedate">
-         <fontPath>./_inc/fonts/bitcrusher condensed bd.ttf</fontPath>
+         <fontPath>./_inc/fonts/DJB Chalk It Up.ttf</fontPath>
          <fontSize>0.034</fontSize>
       </text>
       <text name="md_lbl_rating">

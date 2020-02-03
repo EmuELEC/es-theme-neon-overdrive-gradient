@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+	
+		<view name="system">
+		
+		<image name="background" extra="true">
+			<path>./../fundo/pinkgreen.png</path>
+		</image>
+		
+	</view>
+	<view name="basic,detailed,video">
+      <textlist name="gamelist">      
+         <selectorColor>d67695</selectorColor>
+         <selectedColor>000000</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>369bd3</secondaryColor>
+          <fontPath>./_inc/fonts/DJB Chalk It Up.ttf</fontPath>
+         <fontSize>0.045</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/sounds/Move.wav</scrollSound>
+         <zIndex>3</zIndex>                          
+      </textlist>
+   </view>
+   <view name="basic">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./../gamelist/pinkgreen.png</path>
+         <zIndex>1</zIndex>          
+      </image>                
+   </view> 
+    
+   <view name="detailed,video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./../gamelist/pinkgreen.png</path>
+         <zIndex>1</zIndex>         
+      </image>                
+   </view>     
+	
+	
+</theme>		

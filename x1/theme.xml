@@ -1,6 +1,14 @@
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
+	<include subset="cores" name="greenblue">./fundo/greenblue.xml</include>
+	<include subset="cores" name="pinkblue">./fundo/pinkblue.xml</include>
+	<include subset="cores" name="blue">./fundo/blue.xml</include>
+	<include subset="cores" name="pinkgreen">./fundo/pinkgreen.xml</include>
+	<include subset="cores" name="purple">./fundo/purple.xml</include>
+	<include subset="cores" name="purplered">./fundo/purplered.xml</include>
+	<include subset="cores" name="redblue">./fundo/redblue.xml</include>
+	<include subset="cores" name="redgreen">./fundo/redgreen.xml</include>
 
 	<view name="system">
 		<image name="logo">
@@ -25,5 +33,6 @@
                    <path>./system.png</path>
                    <zIndex>3</zIndex>            
                 </image>
-	</view>		
+	</view>	
+	
 </theme>
